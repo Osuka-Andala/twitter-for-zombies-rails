@@ -3,3 +3,4 @@ class RemoveAgeFromZombies < ActiveRecord::Migration
     remove_column :zombies, :age, :integer
   end
 end
+ 
