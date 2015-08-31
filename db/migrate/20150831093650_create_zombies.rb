@@ -5,7 +5,7 @@ class CreateZombies < ActiveRecord::Migration
       t.text :bio
       t.integer :age
 
-      t.timestamps null: false
+      t.timestamps 
     end
   end
 end
